@@ -14,7 +14,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "deploy": "yarn --silent build && gh-pages --repo git@github.com:ilyar/ipfs-lab.git --dist build",
+    "deploy": "PUBLIC_URL=https://ilyar.github.io/ipfs-lab/ yarn --silent build && gh-pages --repo git@github.com:ilyar/ipfs-lab.git --dist build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
