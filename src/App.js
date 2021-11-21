@@ -18,7 +18,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>IPFS Lab</h1>
+      <h1>IPFS Lab Test</h1>
       <input
         type="file"
         onChange={onChange}
