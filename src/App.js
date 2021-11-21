@@ -25,7 +25,7 @@ function App() {
       />
       {
         fileUrl && (
-          <img src={fileUrl} width="600px" />
+          <img src={fileUrl} width="600px" alt="*" />
         )
       }
     </div>
